@@ -1,40 +1,4 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 16px;
-            line-height: 1.6;
-            color: #444;
-        }
-        h1, h2, h3, h4, h5, h6 {
-            margin-top: 0;
-            line-height: 1.2;
-            font-weight: 400;
-        }
-        ul {
-            list-style: disc;
-            padding-left: 20px;
-        }
-        code {
-            font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-            font-size: 14px;
-            color: #444;
-            background-color: #f5f5f5;
-            padding: 2px 4px;
-        }
-        pre code {
-            display: block;
-            padding: 10px;
-            white-space: pre-wrap;
-        }
-    </style>
-</head>
 <body>
 <h1 align="center">API de Produtos com Laravel</h1>
 <p>Este projeto é uma API de produtos construída com o framework Laravel. A API permite que você crie, leia, atualize e exclua produtos. Além disso, a API é protegida por autenticação JWT, o que significa que você precisa fornecer um token JWT válido para acessar as rotas protegidas.</p>
